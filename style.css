@@ -1,12 +1,12 @@
-/* 
-Colors
+
+/* Colors
 #CF7023
 #A56837
 #FA7100
 #7A593D
 #504135
-#332E2B
- */
+#332E2B */
+
 * {
     box-sizing: border-box;
 }
@@ -23,7 +23,7 @@ nav {
 nav a {
     position: relative;
     text-decoration: none;
-    color: inherit;
+    color: white;
     margin-left: 20px;
     margin-right: 10px;
     top: 50%;
@@ -32,7 +32,22 @@ nav a:hover {
     background-color: #FA7100;
 }
 main {
-    position: absolute;
+    position: relative;
     top: 100px;
-    border: 1px dashed #332E2B;
+    color: #332E2B;
+}
+article {
+    position: relative;
+    background-color: #CF7023;
+    border: 3px dashed #332E2B;;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+img {
+    position: absolute;
+    height: 200px;
+    padding: 6px;
+    background-color: #FA7100;
+    border: 8px double #7A593D;
+
 }
